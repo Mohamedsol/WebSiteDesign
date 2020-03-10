@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Bellota&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Bellota", cursive;
+  background-image: url("pic1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  margin: 0em;
+}
+
+.card-img {
+  display: flex;
+  flex-direction: column;
+  background-image: url("pic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  height: 50%;
+  border-radius: 5px;
+  height: 500px;
+  padding: 20px;
+}
+.main{
+    display: flex;
+    position: relative;
+}
+.body{
+    text-align: center;
+    font-size: 90px;
+    position: absolute;
+    right: 5%;
+    top:20%;
+    padding: 30px;
+    border: 3px solid #fff
+}
+
+.nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  
+}
+
+footer {
+  margin: 100px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-msg{
+    font-weight: bold;
+    font-size: 16px;
+}
+footer .footer-social {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem ;
+}
+footer .footer-social a{
+    margin-right: 1rem;
+    text-decoration: none;
+    background-color:#fff;
+    border-radius: 50%;
+    color: black;
+  }
+
+
+  .fa {
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
